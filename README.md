@@ -2,7 +2,7 @@
 This repository aims to process the FashinMINST dataset with a convolutional networks, and output the predication categories.
 You could have a brief preview of the dataset by checking the check_dataset.ipynb script.
 
-The convolutional network architecture is build in the model.py script, containing 4 convolutional layers, plus 2 layer normalization and 2 max pool layers as below.
+The convolutional network architecture is built in the model.py script, containing 4 convolutional layers, plus 2 layer normalization and 2 max pool layers as below.
 
 CNNModel(
   (cnn1): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1))
